@@ -1,12 +1,3 @@
-// lista de cumparaturi:
-// Un formular de adaugare noi elemente in lista de cumparaturi:
-// formularul contine un input de tip text si un buton "Add item"
-// adaugarea elementelor noi se poate face atat la apasarea tastei enter cat si la apasarea butonului "Add item"
-// Un tabel unde sunt afisate elementele adaugate in lista folosind formularul:
-// elementele vor fi afisate sub forma unui tabel cu 2 coloane: item description, action
-// in coloana item description va fi afisat textul introdus de utilizator in lista, iar pe coloana action va fi afisat un buton "Mark as buyed''
-// butonul 'Mark as buyed" va adauga o clasa de css randului din tabel, ce va face textul sa apara taiat: "strikethrough
-// deasupra listei ce afiseaza elementele adaugate de utilizator, adaugati 2 butoane ce vor sorta crescator si descrescator elementele listei
 
 const input = document.querySelector('input');
 const inputBtn = document.querySelector('.btnAdd');
